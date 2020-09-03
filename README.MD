@@ -4,8 +4,6 @@
 
 Neural Networks API (NNAPI) - апи для работы с нейронными сетями на Android на языке C.
 
-Позволяет работать с моделями, созданными в TensorFlow Lite и Caffe2
-
 Доступен для SDK Api 27+ (Android 8.1)
 
 Среди основных задач:
@@ -131,7 +129,7 @@ NNAPI состоит из таких абстракций:
  * simple_model.h - Файл заголовка класса, работающего с NNAPI
  * simple_model.cpp -Реализация методов класса
 
- Работа с классами NNAPI (**ANeuralNetworksModel**,**ANeuralNetworksCompilation**, **ANeuralNetworksMemory**б **ANeuralNetworksExecution**) описана в классе модели
+ Работа с классами NNAPI (**ANeuralNetworksModel**,**ANeuralNetworksCompilation**, **ANeuralNetworksMemory**, **ANeuralNetworksExecution**) описана в классе модели
 
  ### Model
 
